@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta />
+    <title>Registro</title>
+    <link rel="stylesheet" href=".././CSS/style-createaccount.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <form class="form">
+        <div class="registro__h1"><h1>Registro nuevo cliente</h1></div>
+
+        <div class="registro">
+          <div class="registro__h2"><h2>Datos Personales</h2></div>
+          <div class="datos-personales">
+            <div class="input__nombre">
+              <label for="name">Nombre</label>
+              <input id="name" type="text" required />
+            </div>
+
+            <div class="input__apellido">
+              <label for="apellido">Apellido</label>
+              <input id="apellido" type="text" required />
+            </div>
+
+            <div class="input__dni">
+              <label for="dni">DNI</label>
+              <input id="dni" type="text" required />
+            </div>
+
+            <div class="input__age">
+              <label for="date">Fecha de Nacimiento</label>
+              <input id="date" type="date" required />
+            </div>
+
+            <div class="input__tel">
+              <label for="tel">Telefono</label>
+              <input id="tel" type="tel" required />
+            </div>
+          </div>
+
+          <div class="registro__h2"><h2>Datos de Facturación</h2></div>
+          <div class="datos-facturacion">
+            <div class="input__cuit">
+              <label for="cuit">CUIT/CUIL</label>
+              <input id="cuit" type="text" />
+            </div>
+
+            <div class="input__razon-social">
+              <label for="razon-social">Razón Social</label>
+              <input id="razon-social" type="text" />
+            </div>
+          </div>
+          <div class="registro__h2"><h2>Domicilio</h2></div>
+          <div class="domicilio">
+            <div class="input__street">
+              <label for="Street">Calle</label>
+              <input id="Street" type="text" required />
+            </div>
+
+            <div class="input__number">
+              <label for="number">Número</label>
+              <input id="number" type="text" required />
+            </div>
+
+            <div class="input__depto">
+              <label for="dpto">Piso/Dpto</label>
+              <input id="dpto" type="text" required />
+            </div>
+
+            <div class="input__postal">
+              <label for="postal">Código Postal</label>
+              <input id="postal" type="text" required />
+            </div>
+
+            <div class="input__provincia">
+              <label for="provincia">Provincia</label>
+              <input id="provincia" type="text" required />
+            </div>
+
+            <div class="input__ciudad">
+              <label for="ciudad">Ciudad</label>
+              <input id="ciudad" type="text" required />
+            </div>
+          </div>
+          <div class="registro__h2"><h2>Datos de la cuenta</h2></div>
+          <div class="datos-cuenta">
+            <div class="input__email">
+              <label for="email">Usuario</label>
+              <input id="email" type="email" required />
+            </div>
+
+            <div class="input__password">
+              <label for="password">Contraseña</label>
+              <input id="password" type="password" required />
+            </div>
+
+            <div class="input__password">
+              <label for="repeat-password">Confirmar Contraseña</label>
+              <input id="repeat-password" type="password" required />
+            </div>
+          </div>
+        </div>
+        <div class="checkbox">
+          <div class="checkbox__novedades">
+            <input id="checkbox" type="checkbox" />
+            <label for="checkbox">Quiero recibir novedades en mi mail</label>
+          </div>
+
+          <div class="checkbox__politicas">
+            <input id="checkbox" type="checkbox" required />
+            <label for="checkbox"
+              >Acepto los
+              <a target="_blank" href="#">Términos y Condiciones</a> y las
+              políticas de
+              <a target="_blank" href="#">Seguridad y Privacidad</a></label
+            >
+          </div>
+        </div>
+
+        <div class="registro__btn"><button>Registrarme</button></div>
+      </form>
+    </main>
+    <footer id="footer">
+      <div class="footer">
+        <div class="footer__contact">
+          <div class="contac__h3">
+            <h3>Contacto</h3>
+          </div>
+          <p>Av. Castelli 733 (CP3500)</p>
+          <p>Resistencia - Chaco</p>
+          <p>362-4330440/4330450</p>
+          <p>libreriagrafitochaco@gmail.com</p>
+        </div>
+        <div class="footer__help">
+          <div class="footer__help">
+            <h3>Ayuda</h3>
+          </div>
+          <a href="#">Formas de Pago</a>
+          <a href="#">Preguntas Frecuentes</a>
+          <a href="#">Términos y Condiciones</a>
+          <a href="#">Seguridad y Privacidad</a>
+        </div>
+        <div class="footer__iframe">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d885.0500404328172!2d-58.98756723044064!3d-27.4630272085461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450cec9e0d7045%3A0x32b2e92b5697a44d!2sGrafito!5e0!3m2!1ses-419!2sar!4v1698285336075!5m2!1ses-419!2sar"
+          ></iframe>
+        </div>
+        <div class="footer__redes">
+          <div class="redes__h3"><h3>Seguimos en nuetras redes</h3></div>
+          <div class="redes__icon">
+            <a href="https://www.instagram.com">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com"
+              ><i class="fa-brands fa-tiktok"></i
+            ></a>
+            <a href="https://www.x.com"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="https://www.facebook.com"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="copyright__qr">
+          <img src="../../ASSETS/IMG/footer/datafiscal.png" alt="Data Fiscal" />
+        </div>
+        <div class="disclaimer">
+          <p>
+            © Copyright 2023 Libreria Grafito - Todos los derechos reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

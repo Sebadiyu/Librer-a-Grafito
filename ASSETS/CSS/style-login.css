@@ -1,0 +1,245 @@
+:root {
+  /* background-colors */
+  --lemon-chiffon: #aeefc5;
+  --green: #058436;
+  --green2: #0bc151;
+  --white: #fff;
+  --black: #000;
+  --lightgrey: #ece9e9;
+
+  /* font-weight */
+  --font-light: 300;
+  --font-regular: 400;
+  --font-semibold: 500;
+  --font-bold: 600;
+  --font-semiblack: 700;
+  --font-black: 800;
+
+  /* font-size */
+  --font-xs: 14px;
+  --font-s: 18px;
+  --font-m: 24px;
+  --font-l: 30px;
+  --font-xl: 36px;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+a:visited {
+  color: var(--white);
+}
+
+/* ------------------------login---------------------------- */
+
+.login {
+  background-color: var(--lightgrey);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 700px;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  margin: 55px auto;
+  gap: 1rem;
+  border: 2px solid var(--green);
+  border-radius: 8px;
+}
+
+.login__h1 {
+  font-size: var(--font-m);
+}
+
+.login__h2 {
+  display: flex;
+  align-items: center;
+}
+
+.login__input {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.input__email,
+.input__password {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.input__email label,
+.input__password label {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--font-m);
+}
+
+.input__email input,
+.input__password input {
+  border: 1px solid var(--green);
+  border-radius: 5px;
+  width: 250px;
+  height: 25px;
+  padding: 0 5px;
+}
+.login__checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+}
+
+.login__btn button {
+  color: var(--white);
+  background-color: var(--green);
+  font-size: var(--font-s);
+  padding: 10px 40px;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+.login__btn:hover {
+  transform: scale(1.1);
+}
+
+.forgotpassword a {
+  font-size: var(--font-s);
+  font-weight: var(--font-bold);
+  color: var(--green);
+}
+
+.forgotpassword a:visited {
+  color: var(--green);
+}
+
+.login__create-account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__create-account a {
+  font-size: var(--font-l);
+  font-weight: var(--font-bold);
+  color: var(--green);
+}
+
+.forgotpassword a:visited {
+  color: var(--green);
+}
+
+.back a {
+  font-size: var(--font-m);
+  font-weight: var(--font-semibold);
+  color: var(--green);
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.back a:visited {
+  color: var(--green);
+}
+
+/* ------------------------/login---------------------------- */
+
+/* --------------------FOOTER-------------------- */
+#footer {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.footer {
+  background-color: var(--lightgrey);
+  height: 250px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+}
+.footer__help {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+}
+.footer__help a {
+  text-decoration: underline;
+  color: var(--black);
+}
+
+.footer__iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__iframe iframe {
+  width: 220px;
+  height: 220px;
+  border: 2px solid var(--green);
+}
+
+.footer__redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.redes__h3 {
+  display: flex;
+  margin-top: -40px;
+}
+
+.redes__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.redes__icon i {
+  font-size: 45px;
+  color: var(--black);
+}
+
+.copyright {
+  background-color: var(--black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+  width: 100%;
+  height: 70px;
+  padding: 0 10px;
+}
+
+.copyright__qr img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+}
+
+/* -------------------/FOOTER-------------------- */
