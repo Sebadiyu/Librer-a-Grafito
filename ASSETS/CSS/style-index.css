@@ -49,6 +49,7 @@ a:visited {
   position: fixed;
   background: linear-gradient(var(--green), var(--green2));
   box-shadow: 0px 11px 14px -5px rgba(0, 0, 0, 0.3);
+  z-index: 2;
 }
 
 .header img {
@@ -89,23 +90,21 @@ a:visited {
 
 /* -------------------Hero--------------------- */
 
-.hero {
-  padding-top: 120px;
+#hero {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1200px;
-  margin: auto;
-  width: 100%;
+  padding-top: 125px;
 }
-
-.hero__bg {
+.hero {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+  padding: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 90%;
-  background-color: var(--green2);
-  padding: 1.5rem;
+  background: linear-gradient(var(--green), var(--green2));
   box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.2);
   border-radius: 1rem;
 }
@@ -138,6 +137,7 @@ a:visited {
   font-size: var(--font-m);
   font-weight: var(--font-bold);
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .hero__discovery,
@@ -196,7 +196,7 @@ a:visited {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 1rem auto;
+  margin: auto;
 }
 
 .productos-destacados__title h2 {
@@ -205,8 +205,8 @@ a:visited {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: var(--font-xl);
-  background-color: var(--green);
+  font-size: var(--font-l);
+  background: linear-gradient(var(--green), var(--green2));
   padding: 1rem;
   color: var(--white);
   border-radius: 1rem;
@@ -311,21 +311,16 @@ a:visited {
 
 /* ------------------BENEFICIOS----------------- */
 
-#benefit {
+.benefit {
   max-width: 1200px;
   width: 100%;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px;
-}
-.benefit {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
+  gap: 20px;
   flex-wrap: wrap;
+  padding: 50px;
 }
 
 .benefit__item {
@@ -376,7 +371,7 @@ a:visited {
 #contact {
   max-width: 1200px;
   width: 100%;
-  padding: 70px;
+  padding: 50px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -455,7 +450,7 @@ a:visited {
 .marcas {
   max-width: 1200px;
   width: 100%;
-  margin: auto;
+  margin: 10px auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -465,12 +460,11 @@ a:visited {
 }
 .marcas img {
   width: 90px;
-  opacity: 0.4;
+
   transition: transform 0.3s;
 }
 
 .marcas img:hover {
-  opacity: 1;
   transform: scale(1.1);
 }
 
