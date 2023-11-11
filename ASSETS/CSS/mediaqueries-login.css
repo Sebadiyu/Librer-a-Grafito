@@ -1,0 +1,153 @@
+:root {
+  /* background-colors */
+
+  --green: #058436;
+  --green2: #0bc151;
+  --white: #fff;
+  --black: #000;
+  --lightgrey: #ece9e9;
+
+  /* font-weight */
+  --font-light: 300;
+  --font-regular: 400;
+  --font-semibold: 500;
+  --font-bold: 600;
+  --font-semiblack: 700;
+  --font-black: 800;
+
+  /* font-size */
+  --font-xs: 14px;
+  --font-s: 18px;
+  --font-m: 24px;
+  --font-l: 30px;
+  --font-xl: 36px;
+}
+
+/* --------RESPONSIVE----------- */
+
+/* Tablet */
+
+@media (max-width: 992px) {
+  /* -------------------REGISTRO--------------------- */
+
+  .login__h1 h1 {
+    font-size: var(--font-l);
+  }
+  .login__h2 h2 {
+    text-align: center;
+  }
+  .login {
+    width: 90%;
+  }
+  .registro input {
+    height: 40px;
+    max-width: 400px;
+    width: 90%;
+    font-size: var(--font-m);
+  }
+
+  /* -------------------FOOTER--------------------- */
+  /* Footer */
+  .footer {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px;
+  }
+  .footer__help,
+  .footer__contact {
+    text-align: center;
+    justify-content: center;
+    align-items: start;
+  }
+  iframe {
+    display: none;
+  }
+  .footer__help h3 {
+    font-size: var(--font-s);
+    text-align: center;
+  }
+
+  .footer__redes {
+    justify-content: start;
+    gap: 20px;
+  }
+  .redes__h3 {
+    display: flex;
+    font-size: var(--font-s);
+    margin-top: 0;
+    text-align: center;
+  }
+  .redes__icon i {
+    font-size: 30px;
+  }
+
+  .copyright {
+    font-size: var(--font-xs);
+    height: auto;
+    gap: 10px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 576px) {
+  .login__h1 h1 {
+    font-size: var(--font-l);
+  }
+  .login__h2 h2 {
+    text-align: center;
+  }
+
+  .registro input {
+    height: 40px;
+    max-width: 400px;
+    width: 90%;
+    font-size: var(--font-m);
+  }
+  /* -------------------FOOTER--------------------- */
+
+  .footer {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px;
+  }
+  .footer__help,
+  .footer__contact {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  iframe {
+    display: none;
+  }
+  .footer__help h3 {
+    font-size: var(--font-s);
+    text-align: center;
+  }
+
+  .footer__redes {
+    justify-content: center;
+    gap: 20px;
+  }
+  .redes__h3 {
+    display: flex;
+    font-size: var(--font-s);
+    margin-top: 0;
+    text-align: center;
+  }
+  .redes__icon i {
+    font-size: 30px;
+  }
+
+  .copyright {
+    font-size: var(--font-xs);
+    height: auto;
+    gap: 10px;
+  }
+}
