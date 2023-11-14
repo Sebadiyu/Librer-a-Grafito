@@ -91,9 +91,9 @@
   /* Navbar */
 
   .navbar__ul {
-    background-color: var(--green);
+    background: linear-gradient(var(--green), var(--green2)) repeat;
     width: 100%;
-    height: calc(120vh - 100px);
+    height: calc(100vh - 100px);
     position: absolute;
     top: 100px;
     left: 0;
@@ -203,7 +203,12 @@
   .redes__icon i {
     font-size: 30px;
   }
-
+  .whatsapp-icon {
+    position: none;
+  }
+  .whatsapp-icon:after {
+    display: none;
+  }
   .copyright {
     font-size: var(--font-xs);
     height: auto;

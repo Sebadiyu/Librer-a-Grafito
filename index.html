@@ -13,6 +13,24 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./ASSETS/IMG/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./ASSETS/IMG/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./ASSETS/IMG/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./ASSETS/IMG/favicon/site.webmanifest" />
     <title>Librería Grafito</title>
   </head>
   <body>
@@ -115,7 +133,10 @@
               <div class="product__info">
                 <div class="product__name">
                   <h3 class="product__h3">Tijera Maped advanced green 21 cm</h3>
-                  <p class="product__code">Cod: (464212)</p>
+                  <div class="product__info-stock">
+                    <p class="product__code">Cod: (464212)</p>
+                    <p class="product__stock">En Stock</p>
+                  </div>
                 </div>
                 <div class="product__price">
                   <p>Precio:</p>
@@ -143,7 +164,10 @@
                   <h3 class="product__h3">
                     Lapices Faber-Castell 12+3 Bicolor
                   </h3>
-                  <p class="product__code">Cod: (131415)</p>
+                  <div class="product__info-stock">
+                    <p class="product__code">Cod: (131415)</p>
+                    <p class="product__stock">En Stock</p>
+                  </div>
                 </div>
                 <div class="product__price">
                   <p>Precio:</p>
@@ -170,7 +194,10 @@
                   <h3 class="product__h3">
                     Marcador Filgo Doble Punta Alloy x12 Pastel
                   </h3>
-                  <p class="product__code">Cod: (034993)</p>
+                  <div class="product__info-stock">
+                    <p class="product__code">Cod: (034993)</p>
+                    <p class="product__stock">En Stock</p>
+                  </div>
                 </div>
                 <div class="product__price">
                   <p>Precio:</p>
@@ -309,6 +336,22 @@
           </div>
         </div>
       </div>
+      <div class="whatsapp-icon">
+        <label for="whatsapp-popup" class="whatsapp-icon"></label>
+        <input type="checkbox" id="whatsapp-popup" class="popup-checkbox" />
+        <div class="popup">
+          <h2>Contacto por WhatsApp</h2>
+          <p>¿En qué te podemos ayudar?</p>
+          <input
+            type="text"
+            id="whatsapp-message"
+            placeholder="Escribe tu mensaje aquí"
+          />
+          <button class="send-button">Enviar</button>
+          <div class="message-display" id="message-display"></div>
+        </div>
+      </div>
+
       <div class="copyright">
         <div class="copyright__qr">
           <img src="./ASSETS/IMG/footer/datafiscal.png" alt="Data Fiscal" />
