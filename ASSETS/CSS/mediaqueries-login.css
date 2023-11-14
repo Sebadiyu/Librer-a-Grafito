@@ -23,12 +23,12 @@
   --font-xl: 36px;
 }
 
-/* --------RESPONSIVE----------- */
+/* -------------RESPONSIVE--------------- */
 
-/* Tablet */
+/* ----------------TABLET---------------- */
 
 @media (max-width: 992px) {
-  /* -------------------REGISTRO--------------------- */
+  /* ---Login--- */
 
   .login__h1 h1 {
     font-size: var(--font-l);
@@ -46,8 +46,8 @@
     font-size: var(--font-m);
   }
 
-  /* -------------------FOOTER--------------------- */
-  /* Footer */
+  /* ---Footer--- */
+
   .footer {
     justify-content: center;
     align-items: center;
@@ -91,9 +91,11 @@
   }
 }
 
-/* Mobile */
+/* -------------MOBILE--------------- */
 
 @media (max-width: 576px) {
+  /* ---Login-- */
+
   .login__h1 h1 {
     font-size: var(--font-l);
   }
@@ -107,7 +109,8 @@
     width: 90%;
     font-size: var(--font-m);
   }
-  /* -------------------FOOTER--------------------- */
+
+  /* ---Footer-- */
 
   .footer {
     justify-content: center;
